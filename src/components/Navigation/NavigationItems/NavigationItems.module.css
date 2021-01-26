@@ -19,14 +19,16 @@
 .NavItems li:hover,
 .NavItems li a:hover {
   transition: all 0.5s;
-  color: rgba(233, 231, 104, 0.973);
+  color: #adefd1ff;
   transform: scale(1.2);
 }
 
 .Logo {
-  color: white;
   margin: 60px;
-  border: 2px solid white;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  color: #5b84b1ff;
+  border: 10px double #5b84b1ff;
   border-radius: 50%;
   padding: 0 20px;
 }
