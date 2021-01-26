@@ -8,7 +8,7 @@ const navigationItems = () => {
     <div className={classes.NavItems}>
       <div className={classes.Logo}>
         <h1>
-          <a href="/">KN</a>
+          <a href="/">KN.</a>
         </h1>
       </div>
       <ul>
