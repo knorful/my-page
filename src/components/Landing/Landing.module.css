@@ -23,14 +23,16 @@
   line-height: 48px;
   font-weight: 700;
   animation-name: slideFromLeft;
-  animation-duration: 1.2s;
+  animation-duration: 1.1s;
   animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 @keyframes slideFromLeft {
   0% {
     transform: translateX(-100%);
     opacity: 0;
+    visibility: visible;
   }
   70% {
     transform: translateX(10%) skewY(5deg);
