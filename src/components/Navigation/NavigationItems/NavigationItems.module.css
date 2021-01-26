@@ -1,10 +1,32 @@
 .NavItems {
   display: flex;
-  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.NavItems ul {
+  display: flex;
+  margin: 20px;
   padding: 0;
   align-items: center;
 }
 
 .NavItems li {
   list-style: none;
+}
+
+.NavItems li:hover,
+.NavItems li a:hover {
+  transition: all 0.5s;
+  color: rgba(233, 231, 104, 0.973);
+  transform: scale(1.2);
+}
+
+.Logo {
+  color: white;
+  margin: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 0 20px;
 }

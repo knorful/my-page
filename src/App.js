@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <div>Brand, Nav Links</div>
       <div>head content</div>
       <div>About Me</div>
       <div>Projects</div>

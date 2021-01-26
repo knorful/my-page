@@ -5,11 +5,16 @@ import classes from "./NavigationItems.module.css";
 
 const navigationItems = () => {
   return (
-    <ul className={classes.NavItems}>
-      <NavigationItem link="/">About</NavigationItem>
-      <NavigationItem link="/">Projects</NavigationItem>
-      <NavigationItem link="/">Contact</NavigationItem>
-    </ul>
+    <div className={classes.NavItems}>
+      <div className={classes.Logo}>
+        <h1>KN</h1>
+      </div>
+      <ul>
+        <NavigationItem link="/">About</NavigationItem>
+        <NavigationItem link="/">Projects</NavigationItem>
+        <NavigationItem link="/">Contact</NavigationItem>
+      </ul>
+    </div>
   );
 };
 
