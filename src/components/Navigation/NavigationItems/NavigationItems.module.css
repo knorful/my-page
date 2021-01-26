@@ -2,7 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .NavItems ul {
@@ -14,11 +15,11 @@
 
 .NavItems li {
   list-style: none;
-  letter-spacing: 1px;
 }
 
 .NavItems li:hover,
-.NavItems li a:hover {
+.NavItems li a:hover,
+.Logo a:hover {
   transition: all 0.5s;
   color: #adefd1ff;
   transform: scale(1.2);
@@ -28,8 +29,12 @@
   margin: 60px;
   background-color: white;
   font-family: "Montserrat", sans-serif;
-  color: #5b84b1ff;
   border: 10px double #5b84b1ff;
   border-radius: 50%;
   padding: 0 20px;
+}
+
+.Logo a {
+  text-decoration: none;
+  color: #5b84b1ff;
 }
