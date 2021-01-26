@@ -1,8 +1,8 @@
 import React from "react";
 
 import classes from "./Landing.module.css";
-import keyboardImg from "../../assets/keyboard.jpg";
 import meImg from "../../assets/me.jpeg";
+import cyber from "../../assets/cyber.jpg";
 
 const landing = () => {
   return (
@@ -13,9 +13,11 @@ const landing = () => {
           <h3>
             I'm Kris, it's a pleasure to meet you. Please take a look around!
           </h3>
-          <button>
-            About Me <i class="fas fa-chevron-right"></i>
-          </button>
+          <div>
+            <button>
+              About Me <i className="fas fa-chevron-right"></i>
+            </button>
+          </div>
         </div>
         <div className={classes.profilePic}>
           <figure>
@@ -24,7 +26,7 @@ const landing = () => {
         </div>
       </div>
       <figure className={classes.tint}>
-        <img src={keyboardImg} alt="keyboard" />
+        <img src={cyber} alt="keyboard" />
       </figure>
     </div>
   );

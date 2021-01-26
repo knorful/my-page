@@ -1,0 +1,28 @@
+.About {
+  position: relative;
+  width: 100%;
+  top: 100vh;
+  background-color: white;
+  border-top: 2px solid white;
+}
+
+.About h1 {
+  margin: 50px 0 0 0;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.About hr {
+  width: 70px;
+}
+
+.About .bio {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+.About .background,
+.About .skills {
+  width: 35%;
+}

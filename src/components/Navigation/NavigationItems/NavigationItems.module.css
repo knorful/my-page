@@ -20,22 +20,22 @@
 .NavItems li:hover,
 .NavItems li a:hover {
   transition: all 0.5s;
-  color: #adefd1ff;
-  transform: scale(1.2);
+  color: white;
+  transform: scale(1.1);
 }
 
 .Logo {
   margin: 60px;
   background-color: white;
   font-family: "Montserrat", sans-serif;
-  border: 10px double #5b84b1ff;
+  border: 10px double #00203fff;
   border-radius: 50%;
   padding: 0 20px;
 }
 
 .Logo a {
   text-decoration: none;
-  color: #5b84b1ff;
+  color: #00203fff;
 }
 
 .Logo a:hover,
