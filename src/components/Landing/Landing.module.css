@@ -72,9 +72,6 @@
   -webkit-filter: blur(8px);
   transform: scale(1.1);
 }
-/* .Landing .tint {
-  margin-bottom: 20px;
-} */
 
 .Landing .tint:before {
   content: "";
@@ -94,5 +91,5 @@
   height: 400px;
   border-radius: 100%;
   border: 20px solid white;
-  filter: grayscale(1);
+  filter: grayscale(0.3);
 }

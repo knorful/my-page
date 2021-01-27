@@ -4,7 +4,7 @@
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  width: 100%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -23,7 +23,6 @@
 .NavItems li a:hover {
   transition: all 0.5s;
   color: #adefd1ff;
-  transform: scale(1.1);
 }
 
 .Logo {
@@ -42,6 +41,17 @@
 .Logo a:hover,
 .Logo:hover {
   transition: all 0.5s;
-  background-color: rgb(133, 182, 159);
+  background-color: #adefd1ff;
   color: #00203fff;
+}
+
+.NavItems .Links i {
+  font-size: 2rem;
+  color: white;
+  margin-right: 25px;
+  height: 100%;
+}
+
+.NavItems i:hover {
+  color: #adefd1ff;
 }
