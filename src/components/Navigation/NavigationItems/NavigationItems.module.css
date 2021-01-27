@@ -20,7 +20,7 @@
 .NavItems li:hover,
 .NavItems li a:hover {
   transition: all 0.5s;
-  color: white;
+  color: #adefd1ff;
   transform: scale(1.1);
 }
 
