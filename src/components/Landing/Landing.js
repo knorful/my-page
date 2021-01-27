@@ -2,7 +2,7 @@ import React from "react";
 
 import classes from "./Landing.module.css";
 import meImg from "../../assets/me.jpeg";
-import cyber from "../../assets/cyber.jpg";
+import keyboardImg from "../../assets/keyboard.jpg";
 
 const landing = () => {
   return (
@@ -27,7 +27,7 @@ const landing = () => {
         </div>
       </div>
       <figure className={classes.tint}>
-        <img src={cyber} alt="keyboard" />
+        <img src={keyboardImg} alt="keyboard" />
       </figure>
     </div>
   );

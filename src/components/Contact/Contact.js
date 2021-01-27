@@ -15,6 +15,7 @@ const contact = () => {
             cols="30"
             placeholder="Your message..."
           ></textarea>
+          <button>SUBMIT</button>
         </form>
       </div>
     </div>
