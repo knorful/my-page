@@ -47,17 +47,17 @@
   position: relative;
   font-size: 1.7rem;
   padding: 30px 60px;
-  border-radius: 25px;
-  background-color: #adefd1ff;
-  color: #5b84b1ff;
-  border: none;
+  border: 4px solid white;
+  background-color: transparent;
+  color: white;
 }
 
 .Landing button:hover {
   transition: all 0.5s;
-  color: white;
+  color: #00203fff;
   cursor: pointer;
-  background-color: rgb(86, 117, 103);
+  background-color: #adefd1ff;
+  border-color: #adefd1ff;
 }
 
 .Landing figure {
@@ -73,20 +73,21 @@
   -webkit-filter: blur(8px);
   transform: scale(1.1);
 }
-.Landing .tint {
+/* .Landing .tint {
   margin-bottom: 20px;
-}
+} */
 
 .Landing .tint:before {
   content: "";
   display: block;
   position: absolute;
+  z-index: 2;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(55, 80, 107, 0.568);
-  opacity: 0.95;
+  background-color: rgba(55, 80, 107, 0.856);
+  opacity: 0.45;
 }
 
 .Landing .profilePic img {

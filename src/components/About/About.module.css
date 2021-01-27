@@ -42,7 +42,7 @@
   border: 2px solid #00203fff;
   border-radius: 4px;
   background-color: white;
-  padding: 40px;
+  padding: 0 40px 40px 40px;
   width: 15%;
   text-align: center;
 }
