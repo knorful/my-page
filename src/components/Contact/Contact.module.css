@@ -3,15 +3,17 @@
   position: relative;
   font-size: 1.3rem;
   width: 100%;
-  height: 700px;
+  height: 800px;
   background-color: #adefd1ff;
   z-index: 10;
   border-top: 5px solid #00203fff;
 }
 
 .boxContainer {
-  width: 50%;
+  width: 30%;
   margin: 50px auto;
+  padding: 2px 0;
+  background-color: rgba(0, 0, 0, 0.63);
 }
 
 .Contact .boxContainer::after {
@@ -25,9 +27,9 @@
   -webkit-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
   transform-origin: 100% 0;
-  -webkit-transform: skew(-45deg);
-  -ms-transform: skew(-45deg);
-  transform: skew(-45deg);
+  -webkit-transform: skew(-72deg);
+  -ms-transform: skew(-72deg);
+  transform: skew(-72deg);
   z-index: -1;
 }
 
@@ -49,7 +51,7 @@
   margin: 0 auto;
   margin-top: 25px;
   border: 4px solid white;
-  background-color: #00203fff;
+  background-color: transparent;
   color: white;
   cursor: pointer;
 }

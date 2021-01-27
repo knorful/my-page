@@ -7,9 +7,9 @@ const navigationItems = () => {
   return (
     <div className={classes.NavItems}>
       <div className={classes.Logo}>
-        <h1>
-          <a href="/">KN.</a>
-        </h1>
+        <h2>
+          <a href="/">KRISTOPHER NORFUL</a>
+        </h2>
       </div>
       <ul>
         <NavigationItem link="/">About</NavigationItem>

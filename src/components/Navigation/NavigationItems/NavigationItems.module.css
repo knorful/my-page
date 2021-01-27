@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -25,22 +27,21 @@
 }
 
 .Logo {
-  margin: 60px;
-  background-color: white;
-  font-family: "Montserrat", sans-serif;
-  border: 10px double #00203fff;
-  border-radius: 50%;
-  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 80px;
 }
-
 .Logo a {
   text-decoration: none;
-  color: #00203fff;
+  color: white;
+  margin: 0 30px;
+  height: 100%;
 }
 
 .Logo a:hover,
-.Logo h1:hover {
+.Logo:hover {
   transition: all 0.5s;
-  color: rgb(133, 182, 159);
-  transform: scale(1.2);
+  background-color: rgb(133, 182, 159);
+  color: #00203fff;
 }
