@@ -25,7 +25,7 @@ const about = () => {
           </p>
         </div>
         <div className={classes.skills}>
-          <h2>Skills</h2>
+          <h2>Skills: </h2>
           <ul>
             <li>JavaScript</li>
             <li>Node.js</li>
