@@ -28,7 +28,6 @@ const Projects = () => {
   return (
     <div className={classes.Projects}>
       <h1>Projects</h1>
-      <hr />
       <Div2 ref={ref1} animate={show.itemOne} className={classes.container}>
         <div className={classes.box}>
           <p>Project 1</p>
