@@ -2,6 +2,7 @@ import NavBar from "./components/Navigation/NavBar/NavBar";
 import Landing from "./components/Landing/Landing";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Landing />
       <About />
       <Projects />
-      <div>Contact</div>
+      <Contact />
     </div>
   );
 }
