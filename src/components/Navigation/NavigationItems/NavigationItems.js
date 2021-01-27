@@ -17,13 +17,13 @@ const navigationItems = () => {
         <NavigationItem link="/">Contact</NavigationItem>
       </ul>
       <div className={classes.Links}>
-        <a href="/">
+        <a title="Follow me on Twiiter!" href="/">
           <i class="fab fa-twitter"></i>
         </a>
-        <a href="/">
+        <a title="Connect with me on Twiiter!" href="/">
           <i class="fab fa-linkedin-in"></i>
         </a>
-        <a href="/">
+        <a title="Check out my repos!" href="/">
           <i class="fab fa-github"></i>
         </a>
       </div>
