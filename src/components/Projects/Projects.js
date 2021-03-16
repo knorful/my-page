@@ -38,15 +38,6 @@ const Projects = () => {
         <div className={classes.box}>
           <p>Project 3</p>
         </div>
-        <div className={classes.box}>
-          <p>Project 4</p>
-        </div>
-        <div className={classes.box}>
-          <p>Project 5</p>
-        </div>
-        <div className={classes.box}>
-          <p>Project 6</p>
-        </div>
       </Div2>
     </div>
   );
