@@ -10,10 +10,11 @@
 }
 
 .boxContainer {
-  width: 30%;
+  width: 600px;
   margin: 50px auto;
   padding: 2px 0;
   background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 5px;
 }
 
 .Contact .boxContainer::after {
@@ -65,12 +66,14 @@
 
 .Contact button:hover {
   transition: all 0.5s;
-  color: #00203fff;
-  background-color: #adefd1ff;
+  color: white;
+  background-color: black;
+  border: black;
 }
 
 .Contact input,
 .Contact textarea {
   padding: 20px;
+  margin-bottom: 10px;
   font-size: 1.3rem;
 }
