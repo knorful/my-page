@@ -3,10 +3,10 @@
   position: relative;
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   z-index: 10;
   color: #8f6e45;
-  border-top: 5px solid #161617;
+  margin-top: -77px;
 }
 
 .About h1 {
@@ -14,7 +14,7 @@
   color: #222222;
   font-size: 7rem;
   font-weight: 700;
-  margin: 0 0 100px 0;
+  margin: 100px 0;
 }
 
 .About hr {
@@ -35,13 +35,17 @@
 .About .bio {
   display: flex;
   justify-content: space-between;
-  width: 60%;
   margin: 70px auto;
   font-size: 1.5rem;
 }
 
+.About .backgroundContainer {
+  margin-top: 75px;
+}
+
 .About .background {
-  width: 30%;
+  width: 25%;
+  margin-right: 50px;
 }
 
 .About .skills {
@@ -86,4 +90,11 @@
   font-size: 1.4rem;
   font-weight: 300;
   color: rgb(196, 194, 194);
+}
+
+.About .ImgContainer img {
+  margin-top: 70px;
+  width: 600px;
+  filter: grayscale(0.75);
+  -webkit-filter: grayscale(0.75);
 }

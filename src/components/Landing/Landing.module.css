@@ -69,9 +69,8 @@
   width: 100%;
   background-position: center;
   background-size: cover;
-  filter: blur(6px) grayscale(0.75);
-  -webkit-filter: blur(6px) grayscale(0.75);
-  transform: scale(1.1);
+  filter: blur(6px) grayscale(1);
+  -webkit-filter: blur(6px) grayscale(1);
 }
 
 .Landing .tint:before {
@@ -88,5 +87,5 @@
 }
 
 .Landing span {
-  color: #cc9f69;
+  color: #b88f5e;
 }
