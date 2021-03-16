@@ -1,16 +1,20 @@
 .NavItems {
+  width: 100%;
+  background-color: #0f0f0f;
+}
+
+.NavItemsContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .NavItems ul {
   display: flex;
-  margin: 20px;
   padding: 0;
   align-items: center;
 }
