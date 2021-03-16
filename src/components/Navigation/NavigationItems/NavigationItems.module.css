@@ -38,6 +38,7 @@
 .Logo a {
   text-decoration: none;
   color: white;
+  border-bottom: 4px solid #8c6f49;
   margin: 0 30px;
   height: 100%;
 }
@@ -50,7 +51,7 @@
 }
 
 .NavItems .Links i {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   margin-right: 25px;
   height: 100%;

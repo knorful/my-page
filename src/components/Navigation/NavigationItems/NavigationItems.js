@@ -1,5 +1,4 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
-import NavigationItem from "./NavigationItem/NavigationItem";
 import styled from "styled-components";
 import classes from "./NavigationItems.module.css";
 
@@ -33,12 +32,6 @@ const NavigationItems = () => {
             <a href="/">KRISTOPHER NORFUL</a>
           </h2>
         </div>
-        <ul>
-          <NavigationItem link="/">About</NavigationItem>
-          <NavigationItem link="/">Projects</NavigationItem>
-          <NavigationItem link="/">Contact</NavigationItem>
-          <NavigationItem link="/">Resume</NavigationItem>
-        </ul>
         <div className={classes.Links}>
           <a title="Follow me on Twiiter!" href="https://twitter.com/k_Norful">
             <i class="fab fa-twitter"></i>
