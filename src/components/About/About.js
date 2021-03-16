@@ -68,7 +68,7 @@ const About = () => {
         >
           <div className={classes.backgroundContainer}>
             <p className={classes.introHeading}>MY NAME IS</p>
-            <h1 className={classes.introName}>KRISTOPHER NORFUL.</h1>
+            <h1 className={classes.introName}>KRISTOPHER NORFUL</h1>
             <p className={classes.introParagraph}>
               I am a Computer Science grad from the University of Arkansas at
               Little Rock with a minor in Digital Graphics. I have 5 months
