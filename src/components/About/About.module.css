@@ -3,7 +3,7 @@
   position: relative;
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  height: 100vh;
+  height: 900px;
   z-index: 10;
   color: #8f6e45;
   margin-top: -77px;
@@ -17,25 +17,10 @@
   margin: 100px 0;
 }
 
-.About hr {
-  width: 150px;
-  border: none;
-  height: 1px;
-  margin-bottom: 70px;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    black 0%,
-    #8f6e45 10%,
-    #8f6e45 90%,
-    black 100%
-  );
-}
-
 .About .bio {
   display: flex;
   justify-content: space-between;
-  margin: 70px auto;
+  margin: 70px 2%;
   font-size: 1.5rem;
 }
 
@@ -95,6 +80,6 @@
 .About .ImgContainer img {
   margin-top: 50px;
   width: 600px;
-  filter: grayscale(0.75);
-  -webkit-filter: grayscale(0.75);
+  filter: grayscale(0.85);
+  -webkit-filter: grayscale(0.85);
 }

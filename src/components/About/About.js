@@ -89,16 +89,16 @@ const About = () => {
 
 const Div = styled.div`
   transform: translateX(${({ animate }) => (animate ? "0" : "-100vw")});
-  transition: transform 1s;
+  transition: transform 1s 1s;
 `;
 
 const Div2 = styled.div`
   transform: translateY(${({ animate }) => (animate ? "0" : "100vh")});
-  transition: transform 1s;
+  transition: transform 1s 1s;
 `;
 
 const Div3 = styled.div`
   transform: translateX(${({ animate }) => (animate ? "0" : "100vw")});
-  transition: transform 1s;
+  transition: transform 1s 1s;
 `;
 export default About;
