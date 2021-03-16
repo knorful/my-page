@@ -1,11 +1,32 @@
-import React from "react";
-
+import React, { useLayoutEffect, useRef, useState } from "react";
 import NavigationItem from "./NavigationItem/NavigationItem";
+import styled from "styled-components";
 import classes from "./NavigationItems.module.css";
 
-const navigationItems = () => {
+const NavigationItems = () => {
+  const [show, doShow] = useState({
+    itemOne: false,
+  });
+
+  const ourRef = useRef(null);
+
+  useLayoutEffect(() => {
+    const topPos = (element) => element.getBoundingClientRect().top;
+    //added to reduce redundancy
+    const div1Pos = topPos(ourRef.current);
+
+    const onScroll = () => {
+      const scrollPos = window.scrollY + window.innerHeight;
+      if (div1Pos < scrollPos) {
+        doShow((state) => ({ ...state, itemOne: true }));
+      }
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
   return (
-    <div className={classes.NavItems}>
+    <Div animate={show.itemOne} ref={ourRef} className={classes.NavItems}>
       <div className={classes.Logo}>
         <h2>
           <a href="/">KRISTOPHER NORFUL</a>
@@ -17,18 +38,26 @@ const navigationItems = () => {
         <NavigationItem link="/">Contact</NavigationItem>
       </ul>
       <div className={classes.Links}>
-        <a title="Follow me on Twiiter!" href="/">
+        <a title="Follow me on Twiiter!" href="https://twitter.com/k_Norful">
           <i class="fab fa-twitter"></i>
         </a>
-        <a title="Connect with me on Twiiter!" href="/">
+        <a
+          title="Connect with me on LinkedIn!"
+          href="https://www.linkedin.com/in/kristopher-norful/"
+        >
           <i class="fab fa-linkedin-in"></i>
         </a>
-        <a title="Check out my repos!" href="/">
+        <a title="Check out my repos!" href="https://github.com/knorful">
           <i class="fab fa-github"></i>
         </a>
       </div>
-    </div>
+    </Div>
   );
 };
 
-export default navigationItems;
+const Div = styled.div`
+  transform: translateY(${({ animate }) => (animate ? "0" : "-100vh")});
+  transition: transform 1s;
+`;
+
+export default NavigationItems;

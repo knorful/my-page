@@ -29,34 +29,40 @@ const About = () => {
 
   return (
     <div className={classes.About}>
-      <h1>About</h1>
-      <hr />
       <div className={classes.bio}>
-        <Div animate={show.itemOne} ref={ref1} className={classes.background}>
-          <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-            amet..", comes from a line in section 1.10.32.
-          </p>
+        <Div style={{ textAlign: "center" }} animate={show.itemOne} ref={ref1}>
+          <h1>
+            About
+            <br />
+            Me
+          </h1>
+          <div className={classes.skills}>
+            <h2>Skills</h2>
+            <div className={classes.skillIcons}>
+              <i class="fab fa-react"></i>
+              <i class="fab fa-js-square"></i>
+              <i class="fab fa-css3"></i>
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-git"></i>
+              <i class="fab fa-node"></i>
+              <i class="fab fa-npm"></i>
+            </div>
+          </div>
         </Div>
-        <Div2 animate={show.itemTwo} ref={ref2} className={classes.skills}>
-          <h2>Skills: </h2>
-          <ul>
-            <li>JavaScript</li>
-            <li>Node.js</li>
-            <li>HTML/CSS</li>
-            <li>React</li>
-            <li>Redux</li>
-          </ul>
+        <Div2 animate={show.itemTwo} ref={ref2} className={classes.background}>
+          <p className={classes.introHeading}>MY NAME IS</p>
+          <h1 className={classes.introName}>KRISTOPHER NORFUL.</h1>
+          <p className={classes.introParagraph}>
+            I am a Computer Science grad from the University of Arkansas at
+            Little Rock with a minor in Digital Graphics. I have 5 months
+            working experience as a Software Tester and 9 months working
+            experience as a Solutions Developer Intern. During that time I
+            gained a working knowledge of JavaScript, HTML5, CSS, SQL, Git.
+            <br />
+            <br />I am a member of Phi Theta Kappa Honor Society, Golden Key
+            Honor Society, and the National Society of Collegiate Scholars -
+            Little Rock Chapter.
+          </p>
         </Div2>
       </div>
     </div>

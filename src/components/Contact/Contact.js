@@ -8,8 +8,9 @@ const contact = () => {
       <div className={classes.boxContainer}>
         <form>
           <h1>Contact</h1>
+          <p>Leave a message. Let's connect!</p>
           <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Enter Email" />
+          <input type="email" placeholder="Enter Email" />
           <textarea
             rows="10"
             cols="30"
