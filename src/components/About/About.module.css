@@ -1,53 +1,89 @@
 .About {
-  background-color: rgb(241, 240, 240) !important;
+  background-color: #161617 !important;
   position: relative;
+  font-family: "Montserrat", sans-serif;
   width: 100%;
   height: 800px;
   z-index: 10;
-  border-top: 5px solid #00203fff;
+  color: #8f6e45;
+  border-top: 5px solid #161617;
 }
 
 .About h1 {
-  margin: 100px 0 0 0;
   text-align: center;
-  font-size: 3rem;
+  color: #222222;
+  font-size: 7rem;
+  font-weight: 700;
+  margin: 0 0 100px 0;
 }
 
 .About hr {
   width: 150px;
   border: none;
-  height: 2px;
+  height: 1px;
   margin-bottom: 70px;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(9, 9, 121, 1) 50%,
-    rgba(255, 255, 255, 1) 100%
+    black 0%,
+    #8f6e45 10%,
+    #8f6e45 90%,
+    black 100%
   );
 }
 
 .About .bio {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 60%;
-  margin: 50px auto;
+  margin: 70px auto;
   font-size: 1.5rem;
 }
 
 .About .background {
-  width: 50%;
+  width: 30%;
 }
 
 .About .skills {
-  border: 2px solid #00203fff;
   border-radius: 4px;
-  background-color: white;
   padding: 0 40px 40px 40px;
   width: 15%;
-  text-align: center;
+  font-size: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
 }
-.About .skills li {
-  list-style-type: "\1F44D";
+
+.About .skills h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.About .skillIcons {
+  display: flex;
+  font-size: 2.5rem;
+}
+
+.About .skillIcons i {
+  margin: 10px;
+}
+
+.About .introHeading {
+  color: white;
+  letter-spacing: 5px;
+  font-size: 1rem;
+}
+
+.About .introName {
+  background: #8f6e45;
+  font-size: 2rem;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+.About .introParagraph {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: rgb(196, 194, 194);
 }

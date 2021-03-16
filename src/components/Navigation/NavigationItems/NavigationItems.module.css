@@ -22,7 +22,7 @@
 .NavItems li:hover,
 .NavItems li a:hover {
   transition: all 0.5s;
-  color: #adefd1ff;
+  color: #8c6f49;
 }
 
 .Logo {
@@ -41,8 +41,8 @@
 .Logo a:hover,
 .Logo:hover {
   transition: all 0.5s;
-  background-color: #adefd1ff;
-  color: #00203fff;
+  background-color: #8c6f49;
+  color: black;
 }
 
 .NavItems .Links i {
@@ -53,5 +53,5 @@
 }
 
 .NavItems i:hover {
-  color: #adefd1ff;
+  color: #8c6f49;
 }

@@ -12,7 +12,8 @@ const landing = () => {
           <i class="fas fa-wind"></i>
           <h1>Hello,</h1>
           <h3>
-            I'm Kris, it's a pleasure to meet you. Please take a look around!
+            I'm <span>Kris</span>, it's a pleasure to meet you. Please take a
+            look around!
           </h3>
           <div>
             <button>
