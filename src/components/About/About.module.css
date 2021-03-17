@@ -5,8 +5,7 @@
   width: 100%;
   height: fit-content;
   z-index: 10;
-  color: #8f6e45;
-  margin-top: -77px;
+  color: #ebb97a;
 }
 
 .About h1 {
@@ -22,7 +21,7 @@
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  margin: 70px 2%;
+  margin: 0 2%;
   font-size: 1.5rem;
 }
 
@@ -30,6 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 50px;
 }
 
 .About .background {
@@ -69,7 +69,7 @@
 }
 
 .About .introName {
-  background: #8f6e45;
+  background: #ebb97a;
   font-size: 2rem;
   color: white;
   padding: 20px;
@@ -120,6 +120,7 @@
   .About .bioContainer .background {
     order: 3;
     margin: 0;
+    align-self: auto;
   }
 }
 

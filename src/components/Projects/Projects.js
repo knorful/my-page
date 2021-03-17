@@ -55,7 +55,7 @@ const opacity = keyframes`
 
 const Div2 = styled.div`
   transform: translateX(${({ animate }) => (animate ? "0" : "100vw")});
-  transition: transform 1s;
+  transition: transform 1s 0.6s;
 `;
 
 export default Projects;

@@ -26,7 +26,7 @@
 .NavItems li:hover,
 .NavItems li a:hover {
   transition: all 0.5s;
-  color: #8c6f49;
+  color: #ebb97a;
 }
 
 .Logo {
@@ -38,7 +38,7 @@
 .Logo a {
   text-decoration: none;
   color: white;
-  border-bottom: 4px solid #8c6f49;
+  border-bottom: 4px solid #ebb97a;
   margin: 0 30px;
   height: 100%;
 }
@@ -46,7 +46,7 @@
 .Logo a:hover,
 .Logo:hover {
   transition: all 0.5s;
-  background-color: #8c6f49;
+  background-color: #ebb97a;
   color: black;
 }
 
@@ -58,13 +58,14 @@
 }
 
 .NavItems i:hover {
-  color: #8c6f49;
+  color: #ebb97a;
 }
 
 @media only screen and (min-width: 501px) and (max-width: 630px) {
   .Logo {
     font-size: 0.8rem !important;
     margin-left: 10px;
+    padding: 0 10px;
   }
 
   .NavItems .Links i {

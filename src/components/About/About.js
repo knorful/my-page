@@ -100,7 +100,7 @@ const Div = styled.div`
 
 const Div2 = styled.div`
   transform: translateY(${({ animate }) => (animate ? "0" : "100vh")});
-  transition: transform 1s 0.5s;
+  transition: transform 1s 0.4s;
 `;
 
 const Div3 = styled.div`

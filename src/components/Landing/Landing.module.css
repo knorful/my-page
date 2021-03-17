@@ -53,14 +53,16 @@
 .Landing button:hover {
   transition: all 0.5s;
   cursor: pointer;
-  background-color: #8d6f49;
+  background-color: #ebb97a;
   border-color: black;
   color: black;
   border-radius: 5px;
 }
 
-.Landing figure {
+.Landing figure,
+.Landing figure img {
   margin: 0;
+  height: 100vh;
 }
 
 .Landing .tint img {
@@ -87,7 +89,7 @@
 }
 
 .Landing span {
-  color: #b88f5e;
+  color: #ebb97a;
 }
 
 @media only screen and (max-width: 1004px) {
