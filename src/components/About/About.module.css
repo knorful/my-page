@@ -137,14 +137,14 @@
 
   .About .introParagraph,
   .About .introHeading {
-    width: 80%;
+    width: 60%;
     margin: 10px auto;
     font-size: 1.2rem;
   }
 
   .About .introName {
     font-size: 1.5rem;
-    margin-left: 60px;
+    margin-left: 90px;
     width: 300px;
   }
 }
@@ -155,7 +155,7 @@
   }
 
   .About .ImgContainer img {
-    max-width: 350px;
+    max-width: 100%;
     margin: 0;
     height: auto;
     width: auto;
@@ -164,7 +164,6 @@
   .About .introParagraph,
   .About .introHeading {
     width: 50%;
-    margin: 10px auto;
     font-size: 1.2rem;
   }
 
@@ -172,6 +171,37 @@
     font-size: 1.5rem;
     width: 300px;
     margin: 0 auto;
+  }
+
+  .About .skills {
+    width: 70%;
+  }
+
+  .About .skills i {
+    font-size: 1.65rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .About h1 {
+    font-size: 4rem;
+  }
+
+  .About .ImgContainer img {
+    max-width: 100%;
+    margin: 0;
+    height: auto;
+    width: auto;
+  }
+
+  .About .introParagraph,
+  .About .introHeading {
+    width: 50%;
+    font-size: 1.2rem;
+  }
+
+  .About .introName {
+    font-size: 1.2rem;
   }
 
   .About .skills {

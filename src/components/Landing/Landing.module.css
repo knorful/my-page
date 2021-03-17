@@ -72,12 +72,13 @@
   background-size: cover;
   filter: blur(6px) grayscale(1);
   -webkit-filter: blur(6px) grayscale(1);
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 
 .Landing .tint:before {
   content: "";
   display: block;
+  height: 100vh;
   position: absolute;
   z-index: 2;
   top: 0;
@@ -129,6 +130,6 @@
 
   .Landing button {
     font-size: 1rem;
-    padding: 10px 40px;
+    padding: 10px 25px;
   }
 }

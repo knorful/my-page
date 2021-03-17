@@ -86,19 +86,19 @@
   }
 }
 
-@media only screen and (max-width: 332px) {
+@media only screen and (max-width: 360px) {
   .Logo {
     font-size: 0.5rem;
     margin-left: 10px;
   }
 
   .NavItems .Links i {
-    font-size: 0.5rem;
+    font-size: 0.65rem;
     margin-right: 10px;
   }
 }
 
-@media only screen and (max-width: 297px) {
+@media only screen and (max-width: 320px) {
   .Logo {
     font-size: 0.49rem;
     margin-left: 10px;
@@ -110,7 +110,7 @@
   }
 
   .NavItems .Links i {
-    font-size: 0.5rem;
+    font-size: 0.65rem;
     margin-right: 10px;
   }
 }
