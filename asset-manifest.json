@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-page/static/css/main.c4a26f0c.chunk.css",
+    "main.js": "/my-page/static/js/main.c2d4e466.chunk.js",
+    "main.js.map": "/my-page/static/js/main.c2d4e466.chunk.js.map",
+    "runtime-main.js": "/my-page/static/js/runtime-main.41cd0f33.js",
+    "runtime-main.js.map": "/my-page/static/js/runtime-main.41cd0f33.js.map",
+    "static/js/2.c9208c2b.chunk.js": "/my-page/static/js/2.c9208c2b.chunk.js",
+    "static/js/2.c9208c2b.chunk.js.map": "/my-page/static/js/2.c9208c2b.chunk.js.map",
+    "static/js/3.54b6e95c.chunk.js": "/my-page/static/js/3.54b6e95c.chunk.js",
+    "static/js/3.54b6e95c.chunk.js.map": "/my-page/static/js/3.54b6e95c.chunk.js.map",
+    "index.html": "/my-page/index.html",
+    "static/css/main.c4a26f0c.chunk.css.map": "/my-page/static/css/main.c4a26f0c.chunk.css.map",
+    "static/js/2.c9208c2b.chunk.js.LICENSE.txt": "/my-page/static/js/2.c9208c2b.chunk.js.LICENSE.txt",
+    "static/media/keyboard.e0d6b607.jpg": "/my-page/static/media/keyboard.e0d6b607.jpg",
+    "static/media/me.a43b08a5.JPG": "/my-page/static/media/me.a43b08a5.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41cd0f33.js",
+    "static/js/2.c9208c2b.chunk.js",
+    "static/css/main.c4a26f0c.chunk.css",
+    "static/js/main.c2d4e466.chunk.js"
+  ]
+}
