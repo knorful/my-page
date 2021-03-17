@@ -35,6 +35,7 @@
 .About .background {
   width: 25%;
   margin-right: 50px;
+  align-self: flex-start;
 }
 
 .About .skills {
