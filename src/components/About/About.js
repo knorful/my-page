@@ -37,51 +37,53 @@ const About = () => {
   return (
     <div className={classes.About}>
       <div className={classes.bio}>
-        <Div style={{ textAlign: "center" }} animate={show.itemOne} ref={ref1}>
-          <h1>
-            About
-            <br />
-            Me
-          </h1>
-          <div className={classes.skills}>
-            <h2>Skills</h2>
-            <div className={classes.skillIcons}>
-              <i class="fab fa-react"></i>
-              <i class="fab fa-js-square"></i>
-              <i class="fab fa-css3"></i>
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-git"></i>
-              <i class="fab fa-node"></i>
-              <i class="fab fa-npm"></i>
+        <h1>About Me</h1>
+        <div className={classes.bioContainer}>
+          <Div
+            style={{ textAlign: "center" }}
+            animate={show.itemOne}
+            ref={ref1}
+          >
+            <div className={classes.skills}>
+              <h2>Skills</h2>
+              <div className={classes.skillIcons}>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-css3"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-node"></i>
+                <i class="fab fa-npm"></i>
+              </div>
             </div>
-          </div>
-        </Div>
-        <Div2 animate={show.itemTwo} ref={ref2}>
-          <div className={classes.ImgContainer}>
-            <img src={me} alt="me standing in front of tree" />
-          </div>
-        </Div2>
-        <Div3
-          animate={show.itemThree}
-          ref={ref3}
-          className={classes.background}
-        >
-          <div className={classes.backgroundContainer}>
-            <p className={classes.introHeading}>MY NAME IS</p>
-            <h1 className={classes.introName}>KRISTOPHER NORFUL</h1>
-            <p className={classes.introParagraph}>
-              I am a Computer Science grad from the University of Arkansas at
-              Little Rock with a minor in Digital Graphics. I have 5 months
-              working experience as a Software Tester and 9 months working
-              experience as a Solutions Developer Intern. During that time I
-              gained a working knowledge of JavaScript, HTML5, CSS, SQL, Git.
-              <br />
-              <br />I am a member of Phi Theta Kappa Honor Society, Golden Key
-              Honor Society, and the National Society of Collegiate Scholars -
-              Little Rock Chapter.
-            </p>
-          </div>
-        </Div3>
+          </Div>
+          <Div2 animate={show.itemTwo} ref={ref2}>
+            <div className={classes.ImgContainer}>
+              <img src={me} alt="me standing in front of tree" />
+            </div>
+          </Div2>
+          <Div3
+            animate={show.itemThree}
+            ref={ref3}
+            className={classes.background}
+          >
+            <div className={classes.backgroundContainer}>
+              <p className={classes.introHeading}>MY NAME IS</p>
+              <h1 className={classes.introName}>KRISTOPHER NORFUL</h1>
+              <p className={classes.introParagraph}>
+                I am a Computer Science grad from the University of Arkansas at
+                Little Rock with a minor in Digital Graphics. I have 5 months
+                working experience as a Software Tester and 9 months working
+                experience as a Solutions Developer Intern. During that time I
+                gained a working knowledge of JavaScript, HTML5, CSS, SQL, Git.
+                <br />
+                <br />I am a member of Phi Theta Kappa Honor Society, Golden Key
+                Honor Society, and the National Society of Collegiate Scholars -
+                Little Rock Chapter.
+              </p>
+            </div>
+          </Div3>
+        </div>
       </div>
     </div>
   );
@@ -90,11 +92,15 @@ const About = () => {
 const Div = styled.div`
   transform: translateX(${({ animate }) => (animate ? "0" : "-100vw")});
   transition: transform 1s 1s;
+
+  @media (max-width: 361px) {
+    width: 100%;
+  }
 `;
 
 const Div2 = styled.div`
   transform: translateY(${({ animate }) => (animate ? "0" : "100vh")});
-  transition: transform 1s 1s;
+  transition: transform 1s 0.5s;
 `;
 
 const Div3 = styled.div`

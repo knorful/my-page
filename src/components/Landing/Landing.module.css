@@ -107,12 +107,12 @@
   }
 
   .Landing .greeting {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .Landing button {
     font-size: 1rem;
-    padding: 10px 40px;
+    padding: 20px 40px;
   }
 }
 
