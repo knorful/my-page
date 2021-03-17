@@ -99,6 +99,10 @@ const NavBar = () => {
       :nth-child(3) {
         transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
       }
+
+      @media (max-width: 430px) {
+        width: 1.5rem;
+      }
     }
   `;
 

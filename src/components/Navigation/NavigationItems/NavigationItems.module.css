@@ -61,19 +61,71 @@
   color: #8c6f49;
 }
 
-@media only screen and (max-width: 544px) {
+@media only screen and (min-width: 501px) and (max-width: 630px) {
+  .Logo {
+    font-size: 0.8rem !important;
+    margin-left: 10px;
+  }
+
+  .NavItems .Links i {
+    font-size: 0.8rem;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Logo {
+    font-size: 0.6rem;
+    margin-left: 10px;
+  }
+
+  .NavItems .Links i {
+    font-size: 0.6rem;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 332px) {
+  .Logo {
+    font-size: 0.5rem;
+    margin-left: 10px;
+  }
+
+  .NavItems .Links i {
+    font-size: 0.5rem;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 297px) {
+  .Logo {
+    font-size: 0.49rem;
+    margin-left: 10px;
+  }
+
   .NavItems .Links {
     display: flex;
     flex-direction: column;
   }
 
   .NavItems .Links i {
-    font-size: 1rem;
+    font-size: 0.5rem;
+    margin-right: 10px;
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 257px) {
   .Logo {
-    visibility: hidden;
+    font-size: 0.3rem;
+    margin-left: 10px;
+  }
+
+  .NavItems .Links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .NavItems .Links i {
+    font-size: 0.4rem;
   }
 }
