@@ -72,7 +72,7 @@
   background-size: cover;
   filter: blur(6px) grayscale(1);
   -webkit-filter: blur(6px) grayscale(1);
-  /* transform: scale(1.2); */
+  transform: scale(1.2);
 }
 
 .Landing .tint:before {

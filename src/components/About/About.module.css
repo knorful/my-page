@@ -154,6 +154,10 @@
     font-size: 4rem;
   }
 
+  .About .bioContainer {
+    margin: 0;
+  }
+
   .About .ImgContainer img {
     max-width: 100%;
     margin: 0;
@@ -169,7 +173,7 @@
 
   .About .introName {
     font-size: 1.5rem;
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
   }
 
