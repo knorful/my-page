@@ -22,7 +22,7 @@ const NavBar = () => {
     transition: transform 0.3s ease-in-out;
 
     @media (max-width: 576px) {
-      width: 100%;
+      width: 85%;
     }
 
     a {
@@ -99,10 +99,9 @@ const NavBar = () => {
       :nth-child(3) {
         transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
       }
-
-      // @media (max-width: 430px) {
-      //   width: 1.5rem;
-      // }
+      @media (max-width: 430px) {
+        width: 1.85rem;
+      }
     }
   `;
 
