@@ -76,6 +76,7 @@
   padding: 20px;
   margin-bottom: 10px;
   font-size: 1.3rem;
+  resize: none;
 }
 
 @media only screen and (max-width: 612px) {
