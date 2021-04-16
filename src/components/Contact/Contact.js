@@ -4,7 +4,7 @@ import classes from "./Contact.module.css";
 
 const contact = () => {
   return (
-    <div className={classes.Contact}>
+    <div id="contacts" className={classes.Contact}>
       <div className={classes.boxContainer}>
         <form
           action="https://getform.io/f/d95c6286-2424-489d-a80f-b7285ec54d7a"

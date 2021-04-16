@@ -26,9 +26,9 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className={classes.Projects}>
+    <div id="projects" className={classes.Projects}>
       <h1>Projects</h1>
-      <Div2 ref={ref1} animate={show.itemOne} className={classes.container}>
+      <Div1 ref={ref1} animate={show.itemOne} className={classes.container}>
         <div className={classes.box}>
           <p>Project 1</p>
         </div>
@@ -38,7 +38,7 @@ const Projects = () => {
         <div className={classes.box}>
           <p>Project 3</p>
         </div>
-      </Div2>
+      </Div1>
     </div>
   );
 };
@@ -53,7 +53,7 @@ const opacity = keyframes`
   }
 `;
 
-const Div2 = styled.div`
+const Div1 = styled.div`
   transform: translateX(${({ animate }) => (animate ? "0" : "100vw")});
   transition: transform 1s 0.6s;
 `;
