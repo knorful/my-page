@@ -13,3 +13,9 @@
     width: 110vw;
   }
 }
+
+@media only screen and (max-width: 280px) {
+  .NavBar {
+    width: 135vw;
+  }
+}
