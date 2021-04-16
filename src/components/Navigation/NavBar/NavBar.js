@@ -51,8 +51,8 @@ const NavBar = () => {
     return (
       <StyledMenu open={open}>
         <a href="#about">About</a>
-        <a href="/">Projects</a>
-        <a href="/">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="#contacts">Contact</a>
         <a href="/">Resume</a>
       </StyledMenu>
     );
