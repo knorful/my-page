@@ -94,8 +94,14 @@
 }
 
 @media only screen and (max-width: 1004px) {
+  .Landing .intro {
+    width: 100%;
+  }
+
   .Landing .greeting {
     font-size: 28px;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .Landing button {
@@ -106,7 +112,7 @@
 
 @media only screen and (max-width: 595px) {
   .Landing .intro {
-    top: 20vh;
+    top: 25vh;
   }
 
   .Landing .greeting {

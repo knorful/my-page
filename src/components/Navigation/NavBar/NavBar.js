@@ -22,7 +22,7 @@ const NavBar = () => {
     transition: transform 0.3s ease-in-out;
 
     @media (max-width: 576px) {
-      width: 85%;
+      width: 65%;
     }
 
     a {
