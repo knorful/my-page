@@ -35,7 +35,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className={classes.About}>
+    <div id="about" className={classes.About}>
       <div className={classes.bio}>
         <h1>About Me</h1>
         <div className={classes.bioContainer}>

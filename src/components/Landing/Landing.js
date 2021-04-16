@@ -13,9 +13,9 @@ const landing = () => {
             look around!
           </h3>
           <div>
-            <button>
+            <a href="#about">
               About Me <i className="fas fa-chevron-right"></i>
-            </button>
+            </a>
           </div>
         </div>
       </div>
