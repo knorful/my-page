@@ -16,7 +16,7 @@ const About = () => {
   useLayoutEffect(() => {
     const topPosition = (element) => element.getBoundingClientRect().top;
 
-    const div1Pos = topPosition(ref1.current);
+    const div1Pos = topPosition(ref3.current);
 
     const onScroll = () => {
       const scrollPosition = window.scrollY + window.innerHeight;
