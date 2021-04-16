@@ -19,7 +19,7 @@ const NavBar = () => {
     position: absolute;
     top: 0;
     left: 0;
-    transition: transform 0.3s ease-in-out;
+    transition: all 5s ease-in-out;
 
     @media (max-width: 576px) {
       width: 65%;
@@ -50,7 +50,7 @@ const NavBar = () => {
   const Menu = ({ open }) => {
     return (
       <StyledMenu open={open}>
-        <a href="/">About</a>
+        <a href="#about">About</a>
         <a href="/">Projects</a>
         <a href="/">Contact</a>
         <a href="/">Resume</a>
