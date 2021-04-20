@@ -7,11 +7,11 @@ const landing = () => {
     <div className={classes.Landing}>
       <div className={classes.intro}>
         <div className={classes.greeting}>
-          <h1>Hello, </h1>
-          <h3>
+          <h2>Hello,</h2>
+          <h4>
             I'm <span>Kris</span>, it's a pleasure to meet you. Please take a
             look around!
-          </h3>
+          </h4>
           <div>
             <a href="#about">
               About Me <i className="fas fa-chevron-right"></i>
