@@ -13,7 +13,7 @@ const footer = () => {
           rel="noreferrer"
           href="https://twitter.com/k_Norful"
         >
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-twitter"></i>
         </a>
         <a
           title="Connect with me on LinkedIn!"
@@ -21,7 +21,7 @@ const footer = () => {
           rel="noreferrer"
           href="https://www.linkedin.com/in/kristopher-norful/"
         >
-          <i class="fab fa-linkedin-in"></i>
+          <i className="fab fa-linkedin-in"></i>
         </a>
         <a
           title="Check out my repos!"
@@ -29,7 +29,7 @@ const footer = () => {
           rel="noreferrer"
           href="https://github.com/knorful"
         >
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
       </div>
     </footer>

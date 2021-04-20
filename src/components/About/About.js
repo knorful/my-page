@@ -47,13 +47,13 @@ const About = () => {
             <div className={classes.skills}>
               <h2>Skills</h2>
               <div className={classes.skillIcons}>
-                <i class="fab fa-react"></i>
-                <i class="fab fa-js-square"></i>
-                <i class="fab fa-css3"></i>
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-git"></i>
-                <i class="fab fa-node"></i>
-                <i class="fab fa-npm"></i>
+                <i className="fab fa-react"></i>
+                <i className="fab fa-js-square"></i>
+                <i className="fab fa-css3"></i>
+                <i className="fab fa-html5"></i>
+                <i className="fab fa-git"></i>
+                <i className="fab fa-node"></i>
+                <i className="fab fa-npm"></i>
               </div>
             </div>
           </Div>
