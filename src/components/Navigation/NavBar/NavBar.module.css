@@ -8,6 +8,13 @@
   height: 80px;
 }
 
+.Links {
+  text-align: center;
+}
+.Links a {
+  margin: 0 10px;
+}
+
 @media only screen and (max-width: 361px) {
   .NavBar {
     width: 110vw;
