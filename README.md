@@ -10,6 +10,7 @@ This is the main repo codebase of [my portfolio page](https://knorful.github.io/
 2. [Codebase](#codebase)
     - [Technologies](#technologies)
 3. [Setup Process](#setup)
+4. [Acknowledgements](#acknowledgements)
 
 ## Introduction <a id="introduction"></a>
 ### Vision <a id="vision"></a>
@@ -23,3 +24,6 @@ This app was created to showcase my latest projects using a simple and clean des
 * Clone or download the repo
 * Open the directory and run **npm** to install
 * Run development application by using **npm start**
+
+## Acknowledgements <a id="acknowledgements"></a>
+This website was built using [Reddit's API](https://www.reddit.com/dev/api/) to gather current trending reddits. It also was used to create the searching functionality that allows users to search by reddit community.
