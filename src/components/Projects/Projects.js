@@ -300,7 +300,10 @@ const Projects = () => {
                               using React.
                             </p>
                             <div className={classes.btnContainer}>
-                              <a className={classes.projectLinks} href="/">
+                              <a
+                                className={classes.projectLinks}
+                                href="https://knorful.github.io/my-page/"
+                              >
                                 VIEW DEMO
                               </a>
                               <a
