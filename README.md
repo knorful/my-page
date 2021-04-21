@@ -16,7 +16,7 @@ This is the main repo codebase of [my portfolio page](https://knorful.github.io/
 This app was created to showcase my latest projects using a simple and clean design.
 
 ## Codebase <a id="codebase"></a>
-###Technologies <a id="technologies"></a>
+### Technologies <a id="technologies"></a>
 - React - Front End Library
 
 ## Setup Process <a id="setup"></a>
