@@ -112,10 +112,7 @@ const Projects = () => {
                   <Fade in={openJammming}>
                     <ClickAwayListener onClickAway={handleCloseJammming}>
                       <div className={styles.paper}>
-                        <div
-                          className={classes.projectPreview}
-                          style={{ display: "flex" }}
-                        >
+                        <div className={classes.projectPreview}>
                           <div className={classes.imgContainer}>
                             <img
                               className={classes.projectJammmingImg}

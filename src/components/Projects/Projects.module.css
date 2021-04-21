@@ -42,6 +42,10 @@
   margin: 0 20px;
 }
 
+.projectPreview {
+  display: flex;
+}
+
 .Projects .jammingBox {
   position: relative;
   background: url("../../assets/jammming.jpg");
@@ -167,6 +171,18 @@ svg path {
   }
 }
 
+@media only screen and (max-width: 830px) {
+  .projectPreview {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .projectJammmingImg,
+  .projectRedditImg {
+    max-width: 400px;
+  }
+}
+
 @media only screen and (max-width: 680px) {
   .Projects h1 {
     font-size: 4.5rem;
@@ -178,5 +194,10 @@ svg path {
   .redditBox {
     margin: 0;
     border: none;
+  }
+
+  .projectJammmingImg,
+  .projectRedditImg {
+    max-width: 300px;
   }
 }
