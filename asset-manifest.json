@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.ecaed853.chunk.css",
+    "main.css": "/my-page/static/css/main.b303665b.chunk.css",
     "main.js": "/my-page/static/js/main.1de5bd5b.chunk.js",
     "main.js.map": "/my-page/static/js/main.1de5bd5b.chunk.js.map",
     "runtime-main.js": "/my-page/static/js/runtime-main.763cf102.js",
@@ -10,7 +10,7 @@
     "static/js/3.8355c510.chunk.js": "/my-page/static/js/3.8355c510.chunk.js",
     "static/js/3.8355c510.chunk.js.map": "/my-page/static/js/3.8355c510.chunk.js.map",
     "index.html": "/my-page/index.html",
-    "static/css/main.ecaed853.chunk.css.map": "/my-page/static/css/main.ecaed853.chunk.css.map",
+    "static/css/main.b303665b.chunk.css.map": "/my-page/static/css/main.b303665b.chunk.css.map",
     "static/js/2.f48531cf.chunk.js.LICENSE.txt": "/my-page/static/js/2.f48531cf.chunk.js.LICENSE.txt",
     "static/media/Projects.module.css": "/my-page/static/media/jammming.cf646e01.jpg",
     "static/media/jammmingPreview.3a64a946.PNG": "/my-page/static/media/jammmingPreview.3a64a946.PNG",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.763cf102.js",
     "static/js/2.f48531cf.chunk.js",
-    "static/css/main.ecaed853.chunk.css",
+    "static/css/main.b303665b.chunk.css",
     "static/js/main.1de5bd5b.chunk.js"
   ]
 }
