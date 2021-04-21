@@ -8,7 +8,6 @@ import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
 import Container from "@material-ui/core/Container";
 import ClickAwayListener from "@material-ui/core/ClickAwayListener";
-
 import jammmingImg from "../../assets/jammmingPreview.PNG";
 import redditImg from "../../assets/redditPreview.PNG";
 
@@ -123,6 +122,17 @@ const Projects = () => {
                               src={jammmingImg}
                               alt="jammming project"
                             />
+                            <div className={classes.btnContainer}>
+                              <a className={classes.projectLinks}>VIEW DEMO</a>
+                              <a
+                                className={classes.projectLinks}
+                                href="https://github.com/knorful/Jamming"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                GITHUB
+                              </a>
+                            </div>
                           </div>
                           <div className={classes.projectDescription}>
                             <h4>Project</h4>
@@ -141,7 +151,7 @@ const Projects = () => {
                                 A web application, built with React and Spotify
                                 API, that allows users to search the Spotify
                                 library, create a custom playlist, modify
-                                exisiting playlist, and then save the playlist
+                                exisiting playlists, and then save the playlist
                                 to their Spotify accounts. (Requires having a
                                 Spotify account for playlists to be saved.)
                               </p>
@@ -192,6 +202,24 @@ const Projects = () => {
                             src={redditImg}
                             alt="reddit minimal project"
                           />
+                          <div className={classes.btnContainer}>
+                            <a
+                              className={classes.projectLinks}
+                              href="https://jovial-kare-0edb36.netlify.app/?#/"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              VIEW DEMO
+                            </a>
+                            <a
+                              className={classes.projectLinks}
+                              href="https://github.com/knorful/reddit-minimal"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              GITHUB
+                            </a>
+                          </div>
                         </div>
                         <div className={classes.projectDescription}>
                           <h4>Project</h4>
@@ -267,6 +295,18 @@ const Projects = () => {
                               projects. This is a single page application built
                               using React.
                             </p>
+                            <div className={classes.btnContainer}>
+                              <a className={classes.projectLinks} href="/">
+                                VIEW DEMO
+                              </a>
+                              <a
+                                className={classes.projectLinks}
+                                href="https://github.com/knorful/my-page"
+                                rel="noreferrer"
+                              >
+                                GITHUB
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>

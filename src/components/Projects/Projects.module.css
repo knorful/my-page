@@ -26,6 +26,17 @@
   align-items: center;
 }
 
+.Projects button {
+  border: none;
+  padding: 10px 40px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+.Projects button:hover {
+  opacity: 1;
+  background-color: white;
+}
+
 .jammingBox,
 .redditBox {
   margin: 0 20px;
@@ -64,7 +75,7 @@
 .portfolioBox button {
   position: absolute;
   bottom: 10px;
-  left: 40%;
+  left: 30%;
   cursor: pointer;
 }
 
@@ -104,6 +115,7 @@ svg path {
 .projectRedditImg {
   max-width: 500px;
   max-height: 100%;
+  margin-bottom: 10px;
 }
 
 .techUsed {
@@ -121,6 +133,23 @@ svg path {
 .portfolioBox p {
   font-family: "Niconne", cursive;
   font-size: 3rem;
+}
+
+.btnContainer a {
+  margin: 10px;
+}
+
+.projectLinks {
+  text-decoration: none;
+  border: 2px solid rgb(68, 68, 68);
+  padding: 5px;
+  border-radius: 4px;
+  color: rgb(68, 68, 68);
+}
+
+.projectLinks:hover {
+  background-color: #ddb786;
+  color: white;
 }
 
 @media only screen and (max-width: 1011px) {
