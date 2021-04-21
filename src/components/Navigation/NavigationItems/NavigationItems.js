@@ -29,7 +29,7 @@ const NavigationItems = () => {
       <div className={classes.NavItemsContainer}>
         <div className={classes.Logo}>
           <h3>
-            <a href="/">KRISTOPHER NORFUL</a>
+            <a href="https://knorful.github.io/my-page/">KRISTOPHER NORFUL</a>
           </h3>
         </div>
       </div>
