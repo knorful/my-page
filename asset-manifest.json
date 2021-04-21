@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.d45c8327.chunk.css",
-    "main.js": "/my-page/static/js/main.c2d4e466.chunk.js",
-    "main.js.map": "/my-page/static/js/main.c2d4e466.chunk.js.map",
-    "runtime-main.js": "/my-page/static/js/runtime-main.41cd0f33.js",
-    "runtime-main.js.map": "/my-page/static/js/runtime-main.41cd0f33.js.map",
-    "static/js/2.c9208c2b.chunk.js": "/my-page/static/js/2.c9208c2b.chunk.js",
-    "static/js/2.c9208c2b.chunk.js.map": "/my-page/static/js/2.c9208c2b.chunk.js.map",
-    "static/js/3.54b6e95c.chunk.js": "/my-page/static/js/3.54b6e95c.chunk.js",
-    "static/js/3.54b6e95c.chunk.js.map": "/my-page/static/js/3.54b6e95c.chunk.js.map",
+    "main.css": "/my-page/static/css/main.ecaed853.chunk.css",
+    "main.js": "/my-page/static/js/main.1de5bd5b.chunk.js",
+    "main.js.map": "/my-page/static/js/main.1de5bd5b.chunk.js.map",
+    "runtime-main.js": "/my-page/static/js/runtime-main.763cf102.js",
+    "runtime-main.js.map": "/my-page/static/js/runtime-main.763cf102.js.map",
+    "static/js/2.f48531cf.chunk.js": "/my-page/static/js/2.f48531cf.chunk.js",
+    "static/js/2.f48531cf.chunk.js.map": "/my-page/static/js/2.f48531cf.chunk.js.map",
+    "static/js/3.8355c510.chunk.js": "/my-page/static/js/3.8355c510.chunk.js",
+    "static/js/3.8355c510.chunk.js.map": "/my-page/static/js/3.8355c510.chunk.js.map",
     "index.html": "/my-page/index.html",
-    "static/css/main.d45c8327.chunk.css.map": "/my-page/static/css/main.d45c8327.chunk.css.map",
-    "static/js/2.c9208c2b.chunk.js.LICENSE.txt": "/my-page/static/js/2.c9208c2b.chunk.js.LICENSE.txt",
+    "static/css/main.ecaed853.chunk.css.map": "/my-page/static/css/main.ecaed853.chunk.css.map",
+    "static/js/2.f48531cf.chunk.js.LICENSE.txt": "/my-page/static/js/2.f48531cf.chunk.js.LICENSE.txt",
+    "static/media/Projects.module.css": "/my-page/static/media/jammming.cf646e01.jpg",
+    "static/media/jammmingPreview.3a64a946.PNG": "/my-page/static/media/jammmingPreview.3a64a946.PNG",
     "static/media/keyboard.e0d6b607.jpg": "/my-page/static/media/keyboard.e0d6b607.jpg",
-    "static/media/me.a43b08a5.JPG": "/my-page/static/media/me.a43b08a5.JPG"
+    "static/media/me.a43b08a5.JPG": "/my-page/static/media/me.a43b08a5.JPG",
+    "static/media/redditPreview.9a4ca6d2.PNG": "/my-page/static/media/redditPreview.9a4ca6d2.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.41cd0f33.js",
-    "static/js/2.c9208c2b.chunk.js",
-    "static/css/main.d45c8327.chunk.css",
-    "static/js/main.c2d4e466.chunk.js"
+    "static/js/runtime-main.763cf102.js",
+    "static/js/2.f48531cf.chunk.js",
+    "static/css/main.ecaed853.chunk.css",
+    "static/js/main.1de5bd5b.chunk.js"
   ]
 }
