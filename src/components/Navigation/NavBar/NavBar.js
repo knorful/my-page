@@ -49,7 +49,9 @@ const Menu = ({ open }) => {
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contacts">Contact</a>
-      <a href="/">Resume</a>
+      <a href="https://jmp.sh/LFFeojl" target="_blank" rel="noreferrer">
+        Resume
+      </a>
       <div className={classes.Links}>
         <a
           title="Follow me on Twiiter!"
