@@ -123,7 +123,14 @@ const Projects = () => {
                               alt="jammming project"
                             />
                             <div className={classes.btnContainer}>
-                              <a className={classes.projectLinks}>VIEW DEMO</a>
+                              <a
+                                href="https://storyxpress.co/video/knqstlu4cjcuwt6bh"
+                                target="_blank"
+                                rel="noreferrer"
+                                className={classes.projectLinks}
+                              >
+                                VIEW DEMO
+                              </a>
                               <a
                                 className={classes.projectLinks}
                                 href="https://github.com/knorful/Jamming"
