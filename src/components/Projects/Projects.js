@@ -7,6 +7,7 @@ import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
 import Container from "@material-ui/core/Container";
+import ClickAwayListener from "@material-ui/core/ClickAwayListener";
 
 import jammmingImg from "../../assets/jammmingPreview.PNG";
 import redditImg from "../../assets/redditPreview.PNG";
@@ -62,6 +63,7 @@ const Projects = () => {
 
   const handleCloseJammming = () => {
     setOpenJammming(false);
+    setHoverJammming(false);
   };
 
   const handleOpenReddit = () => {
@@ -70,6 +72,7 @@ const Projects = () => {
 
   const handleCloseReddit = () => {
     setOpenReddit(false);
+    setHoverReddit(false);
   };
 
   const handleOpenPortfolio = () => {
@@ -78,6 +81,7 @@ const Projects = () => {
 
   const handleClosePortfolio = () => {
     setOpenPortfolio(false);
+    setHoverPortfolio(false);
   };
 
   return (
@@ -107,43 +111,45 @@ const Projects = () => {
                   }}
                 >
                   <Fade in={openJammming}>
-                    <div className={styles.paper}>
-                      <div
-                        className={classes.projectPreview}
-                        style={{ display: "flex" }}
-                      >
-                        <div className={classes.imgContainer}>
-                          <img
-                            className={classes.projectJammmingImg}
-                            src={jammmingImg}
-                            alt="jammming project"
-                          />
-                        </div>
-                        <div className={classes.projectDescription}>
-                          <h4>Project</h4>
-                          <h2>Jammming</h2>
-                          <div className={classes.techUsed}>
-                            <p>REACT</p>
-                            <p>JAVASCRIPT</p>
-                            <p>AXIOS</p>
-                            <p>HTML & CSS</p>
-                            <p>RESPONSIVE</p>
-                            <p>SPOTIFY API</p>
+                    <ClickAwayListener onClickAway={handleCloseJammming}>
+                      <div className={styles.paper}>
+                        <div
+                          className={classes.projectPreview}
+                          style={{ display: "flex" }}
+                        >
+                          <div className={classes.imgContainer}>
+                            <img
+                              className={classes.projectJammmingImg}
+                              src={jammmingImg}
+                              alt="jammming project"
+                            />
                           </div>
-                          <div className={classes.projectAbout}>
-                            <h4>About</h4>
-                            <p>
-                              A web application, built with React and Spotify
-                              API, that allows users to search the Spotify
-                              library, create a custom playlist, modify
-                              exisiting playlist, and then save the playlist to
-                              their Spotify accounts. (Requires having a Spotify
-                              account for playlists to be saved.)
-                            </p>
+                          <div className={classes.projectDescription}>
+                            <h4>Project</h4>
+                            <h2>Jammming</h2>
+                            <div className={classes.techUsed}>
+                              <p>REACT</p>
+                              <p>JAVASCRIPT</p>
+                              <p>AXIOS</p>
+                              <p>HTML & CSS</p>
+                              <p>RESPONSIVE</p>
+                              <p>SPOTIFY API</p>
+                            </div>
+                            <div className={classes.projectAbout}>
+                              <h4>About</h4>
+                              <p>
+                                A web application, built with React and Spotify
+                                API, that allows users to search the Spotify
+                                library, create a custom playlist, modify
+                                exisiting playlist, and then save the playlist
+                                to their Spotify accounts. (Requires having a
+                                Spotify account for playlists to be saved.)
+                              </p>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </ClickAwayListener>
                   </Fade>
                 </Modal>
               </div>
