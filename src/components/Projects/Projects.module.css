@@ -118,6 +118,11 @@ svg path {
   font-size: 0.6rem;
 }
 
+.portfolioBox p {
+  font-family: "Niconne", cursive;
+  font-size: 3rem;
+}
+
 @media only screen and (max-width: 1011px) {
   .Projects {
     height: fit-content;
