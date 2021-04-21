@@ -244,7 +244,7 @@ const Projects = () => {
                             <p>
                               Reddit Minimal is an unofficial Reddit frontend
                               app concept, simplified to allow users to browse
-                              popular and search, trending, and top Reddit
+                              and search popular, trending, and top Reddit
                               posts.
                             </p>
                           </div>
