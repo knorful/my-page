@@ -89,7 +89,7 @@
   filter: grayscale(0.85);
   -webkit-filter: grayscale(0.55);
   order: 2;
-  box-shadow: 12px 12px 4px #ebb97a;
+  box-shadow: 12px 12px 2px #ebb97a;
 }
 
 @media only screen and (max-width: 1500px) {

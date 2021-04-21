@@ -95,6 +95,29 @@ svg path {
   fill: #ff0000;
 }
 
+.imgContainer {
+  max-height: 400px;
+  margin-right: 20px;
+}
+
+.projectJammmingImg,
+.projectRedditImg {
+  max-width: 500px;
+  max-height: 100%;
+}
+
+.techUsed {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.techUsed p {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+  font-size: 0.6rem;
+}
+
 @media only screen and (max-width: 1011px) {
   .Projects {
     height: fit-content;
