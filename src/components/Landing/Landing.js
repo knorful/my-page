@@ -8,10 +8,10 @@ const landing = () => {
       <div className={classes.intro}>
         <div className={classes.greeting}>
           <h2>Hello,</h2>
-          <h4>
+          <p>
             I'm <span>Kris</span>, it's a pleasure to meet you. Please take a
             look around!
-          </h4>
+          </p>
           <div>
             <a href="#about">
               About Me <i className="fas fa-chevron-right"></i>
