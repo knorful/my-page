@@ -141,6 +141,7 @@
     max-width: 600px;
     margin: 10px auto;
     font-size: 1.2rem;
+    width: 90vw;
   }
 
   .About .introName {
