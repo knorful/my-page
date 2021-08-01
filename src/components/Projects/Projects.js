@@ -121,14 +121,6 @@ const Projects = () => {
                             />
                             <div className={classes.btnContainer}>
                               <a
-                                href="https://storyxpress.co/video/knqstlu4cjcuwt6bh"
-                                target="_blank"
-                                rel="noreferrer"
-                                className={classes.projectLinks}
-                              >
-                                VIEW DEMO
-                              </a>
-                              <a
                                 className={classes.projectLinks}
                                 href="https://github.com/knorful/Jamming"
                                 target="_blank"

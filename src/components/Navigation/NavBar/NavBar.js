@@ -49,7 +49,7 @@ const Menu = ({ open }) => {
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#contacts">Contact</a>
-      <a href="https://jmp.sh/LFFeojl" target="_blank" rel="noreferrer">
+      <a href="https://jmp.sh/rvm4uc1" target="_blank" rel="noreferrer">
         Resume
       </a>
       <div className={classes.Links}>
