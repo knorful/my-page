@@ -21,7 +21,6 @@
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  margin: 0 2%;
   font-size: 1.5rem;
 }
 
@@ -69,28 +68,31 @@
 
 .About .introName {
   background: #ebb97a;
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: white;
   padding: 20px;
   margin: 0;
-  width: 400px;
+  max-width: 350px;
 }
 
 .About .introParagraph {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 300;
   color: rgb(196, 194, 194);
 }
 
 .About .ImgContainer img {
   margin: 10px 40px;
-  width: 600px;
+  border-radius: 4px;
+  height: 500px;
+  margin-bottom: 25px;
   filter: grayscale(0.85);
-  -webkit-filter: grayscale(0.85);
+  -webkit-filter: grayscale(0.55);
   order: 2;
+  box-shadow: 12px 12px 2px #ebb97a;
 }
 
-@media only screen and (max-width: 1671px) {
+@media only screen and (max-width: 1500px) {
   .About {
     height: fit-content;
   }
@@ -136,9 +138,10 @@
 
   .About .introParagraph,
   .About .introHeading {
-    width: 60%;
+    max-width: 600px;
     margin: 10px auto;
     font-size: 1.2rem;
+    width: 90vw;
   }
 
   .About .introName {
@@ -151,6 +154,10 @@
 @media only screen and (max-width: 412px) {
   .About h1 {
     font-size: 4rem;
+  }
+
+  .About .bioContainer {
+    margin: 0;
   }
 
   .About .ImgContainer img {
@@ -168,7 +175,7 @@
 
   .About .introName {
     font-size: 1.5rem;
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
   }
 

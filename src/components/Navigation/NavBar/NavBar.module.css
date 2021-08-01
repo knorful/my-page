@@ -7,3 +7,22 @@
   justify-content: flex-end;
   height: 80px;
 }
+
+.Links {
+  text-align: center;
+}
+.Links a {
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 361px) {
+  .NavBar {
+    width: 110vw;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .NavBar {
+    width: 135vw;
+  }
+}
